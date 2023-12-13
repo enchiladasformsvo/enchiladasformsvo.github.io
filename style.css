@@ -51,13 +51,19 @@ body {
   transition: transform 1s ease-in-out;
 }
 #slides .slide .sub-title {
-  position: absolute;
-  left: -50px;
-  z-index: 2;
-  top: calc(50% - 1em)
-  padding-top: 5px;
   font-family: "Reem Kufi", sans-serif;
   font-size: 3.5em;
+
+  position: absolute;
+  top: 0.5em;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+
+  
+  z-index: 2;
+  font-family: "Reem Kufi", sans-serif;
   color: white;
   overflow: hidden;
 
