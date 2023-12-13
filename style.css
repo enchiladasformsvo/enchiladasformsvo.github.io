@@ -41,6 +41,11 @@ body {
   transform: translateY(1.2em);
   transition: transform 1s ease-in-out;
 }
+#slides .slide .title .subtitle-text {
+  display: block;
+  transform: translateY(1.2em);
+  transition: transform 1s ease-in-out;
+}
 #slides .slide .sub-title
 {
   position: absolute;
