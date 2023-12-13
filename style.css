@@ -48,9 +48,9 @@ body {
 }
 #slides .slide .sub-title {
   position: absolute;
-  left: 50px;
+  left: -50px;
   z-index: 2;
-  top: -20px;
+  top: calc(50% - 1em)
   padding-top: 5px;
   font-family: "Reem Kufi", sans-serif;
   font-size: 3.5em;
