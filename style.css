@@ -47,7 +47,7 @@ body {
 }
 #slides .slide .sub-title .subtitle-text {
   display: block;
-  transform: translate(1%);
+  transform: translate(-100%);
   transition: transform 1s ease-in-out;
 }
 #slides .slide .sub-title {
