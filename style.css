@@ -62,10 +62,10 @@ body {
   text-align: center;
 
   
-  z-index: 2;
+  z-index: 3;
   font-family: "Reem Kufi", sans-serif;
   color: white;
-  overflow: hidden;
+  overflow: visible;
 
 }
 #slides .slide .slide-partial {
