@@ -50,6 +50,10 @@ body {
   transform: translate(-20%);
   transition: transform 1s ease-in-out;
 }
+h3 
+{
+  font-size: 28px;
+}
 #slides .slide .sub-title {
   font-family: "Reem Kufi", sans-serif;
   font-size: 28px;
