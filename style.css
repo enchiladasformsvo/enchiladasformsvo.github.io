@@ -41,6 +41,20 @@ body {
   transform: translateY(1.2em);
   transition: transform 1s ease-in-out;
 }
+#slides .slide .sub-title
+{
+  position: absolute;
+  top: calc(50% - 0.5em);
+  left: 50px;
+  z-index: 2;
+  top: -20px;
+  padding-top: 5px;
+  font-family: "Reem Kufi", sans-serif;
+  font-size: 2em;
+  color: white;
+  overflow: hidden;
+
+}
 #slides .slide .slide-partial {
   position: absolute;
   width: 50%;
@@ -126,7 +140,7 @@ body {
   background-color: white;
 }
 
-.codepen-link {
+/*.codepen-link {
   position: absolute;
   bottom: 20px;
   right: 20px;
@@ -140,8 +154,8 @@ body {
   background-size: cover;
   opacity: 0.5;
   transition: all 0.25s;
-}
-.codepen-link:hover {
+}*/
+/*.codepen-link:hover {
   opacity: 0.8;
   box-shadow: 0 2px 6px #0c0c0c;
-}
+}*/
