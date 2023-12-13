@@ -2,9 +2,13 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Split-screen Slideshow</title>
+  <title>Making Enchiladas</title>
   <link href="https://fonts.googleapis.com/css?family=Reem+Kufi" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 <link rel="stylesheet" href="./style.css">
+<link href="https://vjs.zencdn.net/8.6.1/video-js.css" rel="stylesheet" />
+
+  <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+  <!-- <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script> -->
 
 </head>
 <body>
@@ -12,14 +16,16 @@
 <div id="container">
   <ul id="slides">
     <li class="slide">
-      <div class="slide-partial slide-left"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/forest-left.jpg"/></div>
-      <div class="slide-partial slide-right"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/forest-right.jpg"/></div>
-      <h1 class="title"><span class="title-text">Forest</span></h1>
+      <div class="slide-partial slide-left"><img src="./Enchilada-left.JPG"/></div>
+      <div class="slide-partial slide-right"><img src="./Enchilada-right.jpg"/></div>
+      <h1 class="title"><span class="title-text">Enchilada Fiesta</span></h1>
+      <h1 class="title"><span class="title-text">By Ricardo Garcia</span></h1>
     </li>
     <li class="slide">
       <div class="slide-partial slide-left"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/mountain-left.jpg"/></div>
       <div class="slide-partial slide-right"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/mountain-right.jpg"/></div>
-      <h1 class="title"><span class="title-text">Mountain</span></h1>
+      <h1 class="title"><span class="title-text">The Idea</span></h1>
+      <h3 class="title"><span class="title-text">Even Though I'm Youngin I care about my grades, after it was brought to my attention that this would bring my grade up i said yes.</span></h3>
     </li>
     <li class="slide">
       <div class="slide-partial slide-left"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/ocean-left.jpg"/></div>
@@ -48,6 +54,7 @@
   </ul>
 </div>
 <!-- partial -->
+  <script src="https://vjs.zencdn.net/8.6.1/video.min.js"></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="./script.js"></script>
 
 </body>
