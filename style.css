@@ -75,6 +75,27 @@ h3
   position: absolute;
 
 }
+#slides .slide .sub-title {
+  font-family: "Reem Kufi", sans-serif;
+  font-size: 20px;
+  bottom: 1px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+
+  
+  z-index: 3;
+  font-family: "Reem Kufi", sans-serif;
+  color: white;
+  overflow: visible;
+
+
+  position: absolute;
+
+}
 #slides .slide .soaps .novelas {
 
   display: block;
