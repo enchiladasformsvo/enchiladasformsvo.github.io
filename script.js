@@ -46,6 +46,29 @@ $(() => {
       cycle(target);
     }
   });
+document.onkeydown = function(e) {
+    switch(e.which) {
+        case 37: // left
+        let target = currentIndex > 0 ? currentIndex - 1 : $slides.length - 1;
+        cycle(target);
+
+        break;
+/*
+        case 38: // up
+        break;
+*/
+        case 39: // right
+        cycle();
+        break;
+/*
+        case 40: // down
+        break;
+*/
+
+        default: return; // exit this handler for other keys
+    }
+    e.preventDefault(); // prevent the default action (scroll / move caret)
+};
 
   $btns.on("click", e => {
     window.clearInterval(interval);
