@@ -1,7 +1,9 @@
 * {
   box-sizing: border-box;
 }
-
+.pirated_movie {
+  z-index: 4;
+}
 body {
   background-color: #0c0c0c;
   overflow: hidden;
