@@ -51,6 +51,10 @@ body {
   transition: transform 1s ease-in-out;
 }
 #slides .slide .soaps {
+  display: block;
+  transform: translateY(1.2em);
+  transition: transform 1s ease-in-out;
+
   font-family: "Reem Kufi", sans-serif;
   font-size: 36px;
   bottom: 1px;
@@ -91,13 +95,6 @@ body {
 
   position: absolute;
 
-}
-#slides .slide .soaps .novelas {
-
-  display: block;
-  transform: translateY(1.2em);
-  transition: transform 1s ease-in-out;
-  
 }
 
 #slides .slide .slide-partial {
